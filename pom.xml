@@ -10,7 +10,7 @@
     <properties>
         <aspectj.version>1.8.10</aspectj.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <suiteXmlFile>testng.xml</suiteXmlFile>
+        <suiteXmlfiles>src/main/resources/testng.xml</suiteXmlfiles>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -26,11 +26,6 @@
             <artifactId>testng</artifactId>
             <version>6.10</version>
             <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-chrome-driver</artifactId>
-            <version>4.0.0-alpha-3</version>
         </dependency>
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
